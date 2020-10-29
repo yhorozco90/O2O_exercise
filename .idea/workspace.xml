@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0b70331b-0250-4ec2-9ad3-8cab3dd62a3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,11 +113,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603964945319</updated>
-      <workItem from="1603964949376" duration="514000" />
+      <workItem from="1603964949376" duration="1454000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2" timestamp="1603966398408">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2/0.0.1366.729@0.0.1366.729" timestamp="1603966398408" />
+    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2" timestamp="1603965868826">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2/0.0.1366.729@0.0.1366.729" timestamp="1603965868826" />
+    <state x="444" y="212" width="477" height="302" key="cloudConfig.PluginsDialog" timestamp="1603965464365">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="444" y="212" width="477" height="302" key="cloudConfig.PluginsDialog/0.0.1366.729@0.0.1366.729" timestamp="1603965464365" />
+    <state x="466" y="259" width="423" height="208" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603966065424">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="466" y="259" width="423" height="208" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.729@0.0.1366.729" timestamp="1603966065424" />
   </component>
 </project>
