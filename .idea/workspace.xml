@@ -5,10 +5,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b70331b-0250-4ec2-9ad3-8cab3dd62a3d" name="Default Changelist" comment="Add:&#10;-PunckApi configuration">
-      <change afterPath="$PROJECT_DIR$/src/ThirdPartyServers/PunkApi/PunkApiClient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Beers/BeersV1Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Beers/BeersV1Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThirdPartyServers/PunkApi/PunkApiConfiguration.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThirdPartyServers/PunkApi/PunkApiConfiguration.php" afterDir="false" />
+    <list default="true" id="0b70331b-0250-4ec2-9ad3-8cab3dd62a3d" name="Default Changelist" comment="Add:&#10;-PunckApiClient &#10;-PunckApiClient test">
+      <change afterPath="$PROJECT_DIR$/src/Entity/Beer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Entity/BeerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ThirdPartyServers/PunkApi/PunkApiClientTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThirdPartyServers/PunkApi/PunkApiClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThirdPartyServers/PunkApi/PunkApiClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +35,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/flex" />
       <path value="$PROJECT_DIR$/vendor/composer" />
@@ -107,6 +113,15 @@
       <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
       <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
       <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jXytRSuhuhRb6RnaU2gGuhFJzV" />
@@ -134,9 +149,9 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="323" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ThirdPartyServers/PunkApi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml.dist" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -145,15 +160,14 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="PunkApiConfigurationTest.testGetApiUrl" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="App\Tests\ThirdPartyServers\PunkApi\PunkApiConfigurationTest" file="$PROJECT_DIR$/tests/ThirdPartyServers/PunkApi/PunkApiConfigurationTest.php" method="testGetApiUrl" scope="Method" />
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="PHPUnit.PunkApiConfigurationTest.testGetApiUrl" />
-      </list>
-    </recent_temporary>
+    <configuration name="test suit" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -164,7 +178,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603964945319</updated>
       <workItem from="1603964949376" duration="2921000" />
-      <workItem from="1603968033740" duration="9654000" />
+      <workItem from="1603968033740" duration="27271000" />
     </task>
     <task id="LOCAL-00001" summary="Add: /.idea to git ignore">
       <created>1603966434945</created>
@@ -194,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603980591399</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix:&#10;-PunckApi configuration getApiUrl">
+      <created>1603980876950</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603980876950</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,33 +264,78 @@
     <MESSAGE value="Add: Beers controller with versioning config" />
     <MESSAGE value="Add:&#10;- Beers controller&#10;- versioning config" />
     <MESSAGE value="Add:&#10;-PunckApi configuration&#10;-PunckApi configuration test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add:&#10;-PunckApi configuration&#10;-PunckApi configuration test" />
+    <MESSAGE value="fix:&#10;-PunckApi configuration getApiUrl" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:&#10;-PunckApi configuration getApiUrl" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="368" y="11" width="623" height="704" key="#PHP" timestamp="1603982711893">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="368" y="11" width="623" height="704" key="#PHP/0.0.1366.729@0.0.1366.729" timestamp="1603982711893" />
+    <state x="268" y="21" width="824" height="681" key="#Test_Frameworks" timestamp="1603982969193">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="268" y="21" width="824" height="681" key="#Test_Frameworks/0.0.1366.729@0.0.1366.729" timestamp="1603982969193" />
+    <state x="141" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603982880790">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="141" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.729@0.0.1366.729" timestamp="1603982880790" />
+    <state x="470" y="76" width="425" height="573" key="#com.intellij.ide.util.MemberChooser" timestamp="1603991676512">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="470" y="76" width="425" height="573" key="#com.intellij.ide.util.MemberChooser/0.0.1366.729@0.0.1366.729" timestamp="1603991676512" />
     <state x="250" y="0" width="846" height="726" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603970920984">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="250" y="0" width="846" height="726" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.729@0.0.1366.729" timestamp="1603970920984" />
-    <state x="416" y="122" width="524" height="481" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603976091650">
+    <state x="416" y="122" width="524" height="481" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604000418066">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="416" y="122" width="524" height="481" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.729@0.0.1366.729" timestamp="1603976091650" />
-    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2" timestamp="1603980590747">
+    <state x="416" y="122" width="524" height="481" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.729@0.0.1366.729" timestamp="1604000418066" />
+    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2" timestamp="1603983367463">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2/0.0.1366.729@0.0.1366.729" timestamp="1603980590747" />
-    <state x="100" y="100" width="1166" height="529" key="DiffContextDialog" timestamp="1603967777493">
+    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2/0.0.1366.729@0.0.1366.729" timestamp="1603983367463" />
+    <state x="100" y="100" width="1166" height="529" key="DiffContextDialog" timestamp="1603983353534">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="100" y="100" width="1166" height="529" key="DiffContextDialog/0.0.1366.729@0.0.1366.729" timestamp="1603967777493" />
-    <state x="418" y="88" width="520" height="549" key="RollbackChangesDialog" timestamp="1603967799286">
+    <state x="100" y="100" width="1166" height="529" key="DiffContextDialog/0.0.1366.729@0.0.1366.729" timestamp="1603983353534" />
+    <state x="466" y="122" width="424" height="481" key="FileChooserDialogImpl" timestamp="1603982965957">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="418" y="88" width="520" height="549" key="RollbackChangesDialog/0.0.1366.729@0.0.1366.729" timestamp="1603967799286" />
-    <state x="187" y="0" key="SettingsEditor" timestamp="1603967874210">
+    <state x="466" y="122" width="424" height="481" key="FileChooserDialogImpl/0.0.1366.729@0.0.1366.729" timestamp="1603982965957" />
+    <state x="0" y="0" width="1356" height="726" key="FileDocumentManager.FileCacheConflict" timestamp="1603983239190">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="187" y="0" key="SettingsEditor/0.0.1366.729@0.0.1366.729" timestamp="1603967874210" />
+    <state x="0" y="0" width="1356" height="726" key="FileDocumentManager.FileCacheConflict/0.0.1366.729@0.0.1366.729" timestamp="1603983239190" />
+    <state width="1324" height="256" key="GridCell.Tab.0.bottom" timestamp="1603990392000">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state width="1324" height="256" key="GridCell.Tab.0.bottom/0.0.1366.729@0.0.1366.729" timestamp="1603990392000" />
+    <state width="1324" height="256" key="GridCell.Tab.0.center" timestamp="1603990391999">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state width="1324" height="256" key="GridCell.Tab.0.center/0.0.1366.729@0.0.1366.729" timestamp="1603990391999" />
+    <state width="1324" height="256" key="GridCell.Tab.0.left" timestamp="1603990391999">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state width="1324" height="256" key="GridCell.Tab.0.left/0.0.1366.729@0.0.1366.729" timestamp="1603990391999" />
+    <state width="1324" height="256" key="GridCell.Tab.0.right" timestamp="1603990391999">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state width="1324" height="256" key="GridCell.Tab.0.right/0.0.1366.729@0.0.1366.729" timestamp="1603990391999" />
+    <state x="376" y="93" width="604" height="539" key="NewPhpClassDialog" timestamp="1603987395804">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="376" y="93" width="604" height="539" key="NewPhpClassDialog/0.0.1366.729@0.0.1366.729" timestamp="1603987395804" />
+    <state x="418" y="88" width="520" height="549" key="RollbackChangesDialog" timestamp="1603996201537">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="418" y="88" width="520" height="549" key="RollbackChangesDialog/0.0.1366.729@0.0.1366.729" timestamp="1603996201537" />
+    <state x="187" y="0" key="SettingsEditor" timestamp="1603982677843">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="187" y="0" key="SettingsEditor/0.0.1366.729@0.0.1366.729" timestamp="1603982677843" />
     <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2" timestamp="1603968161705">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
@@ -278,10 +344,10 @@
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="444" y="212" width="477" height="302" key="cloudConfig.PluginsDialog/0.0.1366.729@0.0.1366.729" timestamp="1603965464365" />
-    <state x="100" y="100" width="1166" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603969880015">
+    <state x="84" y="78" width="1166" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604000373923">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="100" y="100" width="1166" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.729@0.0.1366.729" timestamp="1603969880015" />
+    <state x="84" y="78" width="1166" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.729@0.0.1366.729" timestamp="1604000373923" />
     <state x="389" y="113" width="587" height="502" key="find.popup" timestamp="1603973516587">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
@@ -290,5 +356,12 @@
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="466" y="259" width="423" height="208" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.729@0.0.1366.729" timestamp="1603966065424" />
+    <state x="346" y="50" width="672" height="678" key="search.everywhere.popup" timestamp="1603995477129">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="346" y="50" width="672" height="678" key="search.everywhere.popup/0.0.1366.729@0.0.1366.729" timestamp="1603995477129" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/O2O_test@PunkApiConfigurationTest_testGetApiUrl.xml" NAME="PunkApiConfigurationTest.testGetApiUrl Coverage Results" MODIFIED="1603982716607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
