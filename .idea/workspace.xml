@@ -7,15 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0b70331b-0250-4ec2-9ad3-8cab3dd62a3d" name="Default Changelist" comment="Add:&#10;-PunckApi configuration">
       <change afterPath="$PROJECT_DIR$/src/ThirdPartyServers/PunkApi/PunkApiClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThirdPartyServers/PunkApi/PunkApiConfiguration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Beers/BeersV1Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Beers/BeersV1Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThirdPartyServers/PunkApi/PunkApiConfiguration.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThirdPartyServers/PunkApi/PunkApiConfiguration.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603964945319</updated>
       <workItem from="1603964949376" duration="2921000" />
-      <workItem from="1603968033740" duration="9370000" />
+      <workItem from="1603968033740" duration="9654000" />
     </task>
     <task id="LOCAL-00001" summary="Add: /.idea to git ignore">
       <created>1603966434945</created>
@@ -194,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603970145599</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add:&#10;-PunckApi configuration&#10;-PunckApi configuration test">
+      <created>1603980591397</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603980591399</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +242,8 @@
     <MESSAGE value="Fix: /.idea rcursive to git ignore&#10;Add: Nelmio cors config" />
     <MESSAGE value="Add: Beers controller with versioning config" />
     <MESSAGE value="Add:&#10;- Beers controller&#10;- versioning config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add:&#10;- Beers controller&#10;- versioning config" />
+    <MESSAGE value="Add:&#10;-PunckApi configuration&#10;-PunckApi configuration test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add:&#10;-PunckApi configuration&#10;-PunckApi configuration test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="250" y="0" width="846" height="726" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603970920984">
@@ -253,10 +254,10 @@
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="416" y="122" width="524" height="481" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.729@0.0.1366.729" timestamp="1603976091650" />
-    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2" timestamp="1603976971749">
+    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2" timestamp="1603980590747">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2/0.0.1366.729@0.0.1366.729" timestamp="1603976971749" />
+    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2/0.0.1366.729@0.0.1366.729" timestamp="1603980590747" />
     <state x="100" y="100" width="1166" height="529" key="DiffContextDialog" timestamp="1603967777493">
       <screen x="0" y="0" width="1366" height="729" />
     </state>

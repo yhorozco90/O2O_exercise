@@ -35,7 +35,7 @@ class PunkApiConfiguration
      */
     public function getApiUrl(): string
     {
-        return $this->getApiUrl() . '/' . $this->getApiVersion();
+        return $this->getBaseUri() . '/' . $this->getApiVersion();
     }
 
     /**
