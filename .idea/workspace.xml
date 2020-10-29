@@ -5,9 +5,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b70331b-0250-4ec2-9ad3-8cab3dd62a3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0b70331b-0250-4ec2-9ad3-8cab3dd62a3d" name="Default Changelist" comment="Add: /.idea to git ignore">
+      <change afterPath="$PROJECT_DIR$/src/Controller/Beers/BeersV1Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled2.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/fos_rest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/fos_rest.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,11 @@
     </execution>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -100,9 +108,27 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="324" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="324" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="324" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="323" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="324" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="324" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="324" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="323" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -113,8 +139,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603964945319</updated>
-      <workItem from="1603964949376" duration="1454000" />
+      <workItem from="1603964949376" duration="2921000" />
+      <workItem from="1603968033740" duration="1845000" />
     </task>
+    <task id="LOCAL-00001" summary="Add: /.idea to git ignore">
+      <created>1603966434945</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603966434945</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fix: /.idea rcursive to git ignore&#10;Add: Nelmio cors config">
+      <created>1603968140617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603968140617</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,22 +190,49 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add: /.idea to git ignore" />
+    <MESSAGE value="Fix: /.idea rcursive to git ignore&#10;Add: Nelmio cors config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: /.idea rcursive to git ignore&#10;Add: Nelmio cors config" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2" timestamp="1603966398408">
+    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2" timestamp="1603968140292">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2/0.0.1366.729@0.0.1366.729" timestamp="1603966398408" />
-    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2" timestamp="1603965868826">
+    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2/0.0.1366.729@0.0.1366.729" timestamp="1603968140292" />
+    <state x="100" y="100" width="1166" height="529" key="DiffContextDialog" timestamp="1603967777493">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2/0.0.1366.729@0.0.1366.729" timestamp="1603965868826" />
+    <state x="100" y="100" width="1166" height="529" key="DiffContextDialog/0.0.1366.729@0.0.1366.729" timestamp="1603967777493" />
+    <state x="418" y="88" width="520" height="549" key="RollbackChangesDialog" timestamp="1603967799286">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="418" y="88" width="520" height="549" key="RollbackChangesDialog/0.0.1366.729@0.0.1366.729" timestamp="1603967799286" />
+    <state x="187" y="0" key="SettingsEditor" timestamp="1603967874210">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="187" y="0" key="SettingsEditor/0.0.1366.729@0.0.1366.729" timestamp="1603967874210" />
+    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2" timestamp="1603968161705">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2/0.0.1366.729@0.0.1366.729" timestamp="1603968161705" />
     <state x="444" y="212" width="477" height="302" key="cloudConfig.PluginsDialog" timestamp="1603965464365">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="444" y="212" width="477" height="302" key="cloudConfig.PluginsDialog/0.0.1366.729@0.0.1366.729" timestamp="1603965464365" />
+    <state x="100" y="100" width="1166" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603969880015">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="100" y="100" width="1166" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.729@0.0.1366.729" timestamp="1603969880015" />
     <state x="466" y="259" width="423" height="208" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603966065424">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
