@@ -2,10 +2,19 @@
 
 namespace App\ThirdPartyServers\PunkApi;
 
+use App\Entity\Beer;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ResponseInterface;
+use Symfony\Component\Serializer\Encoder\JsonEncoder;
+use Symfony\Component\Serializer\NameConverter\CamelCaseToSnakeCaseNameConverter;
+use Symfony\Component\Serializer\Normalizer\AbstractNormalizer;
+use Symfony\Component\Serializer\Normalizer\ArrayDenormalizer;
+use Symfony\Component\Serializer\Normalizer\GetSetMethodNormalizer;
+use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
+use Symfony\Component\Serializer\Serializer;
 
 class PunkApiClient
 {
@@ -13,6 +22,7 @@ class PunkApiClient
      * @var Client
      */
     private $client;
+
 
     /**
      * @var PunkApiConfiguration
@@ -54,12 +64,12 @@ class PunkApiClient
      * @return mixed
      * @throws GuzzleException
      */
-    public function getBeerById(string $id)
+    public function getBeerById(int $id):Beer
     {
         $request = $this->prepareRequest('GET', "/beers/$id");
         $response = $this->client->send($request);
-
-        return json_decode($response->getBody()->getContents(), true);
+        $beers = $this->deserializeResponse($response);
+        return current($beers);
     }
 
     /**
@@ -67,12 +77,27 @@ class PunkApiClient
      * @return mixed
      * @throws GuzzleException
      */
-    public function listBeers(array $queryParams=[])
+    public function listBeers(array $queryParams = [])
     {
 
         $request = $this->prepareRequest('GET', "/beers");
-        $response = $this->client->send($request,['query'=>$queryParams]);
+        $response = $this->client->send($request, ['query' => $queryParams]);
+        return $this->deserializeResponse($response);
+    }
 
-        return json_decode($response->getBody()->getContents(), true);
+    private function deserializeResponse(ResponseInterface $response): array
+    {
+        $serializer = new Serializer(
+            [new GetSetMethodNormalizer(
+                null,
+                new CamelCaseToSnakeCaseNameConverter()),
+                new ArrayDenormalizer()],
+            [new JsonEncoder()]
+        );
+
+        return $serializer->deserialize(
+            $response->getBody()->getContents(),
+            'App\Entity\Beer[]', 'json'
+        );
     }
 }
