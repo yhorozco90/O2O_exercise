@@ -21,7 +21,7 @@ class BeersV1Controller extends AbstractController
      *     path="/beer/{id}"
      * )
      */
-    public function index(): Response
+    public function getBeer($id): Response
     {
         return $this->json( [
             'controller_name' => 'BeersV1Controller',
