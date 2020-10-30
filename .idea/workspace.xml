@@ -5,15 +5,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b70331b-0250-4ec2-9ad3-8cab3dd62a3d" name="Default Changelist" comment="Add:&#10;-PunckApiClient &#10;-PunckApiClient test">
-      <change afterPath="$PROJECT_DIR$/src/Entity/Beer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Entity/BeerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ThirdPartyServers/PunkApi/PunkApiClientTest.php" afterDir="false" />
+    <list default="true" id="0b70331b-0250-4ec2-9ad3-8cab3dd62a3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThirdPartyServers/PunkApi/PunkApiClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThirdPartyServers/PunkApi/PunkApiClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/nelmio_api_doc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/nelmio_api_doc.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Beers/BeersV1Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Beers/BeersV1Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Beer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Beer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,9 +112,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-client" />
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
-      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
       <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
-      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
       <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
       <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
       <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
@@ -122,6 +122,9 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
       <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jXytRSuhuhRb6RnaU2gGuhFJzV" />
@@ -149,13 +152,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="323" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml.dist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/ThirdPartyServers/PunkApi" />
     </key>
   </component>
@@ -178,7 +182,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603964945319</updated>
       <workItem from="1603964949376" duration="2921000" />
-      <workItem from="1603968033740" duration="27271000" />
+      <workItem from="1603968033740" duration="42785000" />
+      <workItem from="1604046263801" duration="12057000" />
     </task>
     <task id="LOCAL-00001" summary="Add: /.idea to git ignore">
       <created>1603966434945</created>
@@ -215,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603980876950</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add:&#10;-Beer entity &#10;-Beer entity test&#10;-PunkApi client &#10;-PunkApi test">
+      <created>1604001384960</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604001384960</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add:&#10;-Beer entity &#10;-Beer entity test">
+      <created>1604001433505</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604001433505</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +284,9 @@
     <MESSAGE value="Add:&#10;- Beers controller&#10;- versioning config" />
     <MESSAGE value="Add:&#10;-PunckApi configuration&#10;-PunckApi configuration test" />
     <MESSAGE value="fix:&#10;-PunckApi configuration getApiUrl" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix:&#10;-PunckApi configuration getApiUrl" />
+    <MESSAGE value="Add:&#10;-Beer entity &#10;-Beer entity test&#10;-PunkApi client &#10;-PunkApi test" />
+    <MESSAGE value="Add:&#10;-Beer entity &#10;-Beer entity test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add:&#10;-Beer entity &#10;-Beer entity test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="11" width="623" height="704" key="#PHP" timestamp="1603982711893">
@@ -292,10 +313,10 @@
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="416" y="122" width="524" height="481" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.729@0.0.1366.729" timestamp="1604000418066" />
-    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2" timestamp="1603983367463">
+    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2" timestamp="1604001433271">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2/0.0.1366.729@0.0.1366.729" timestamp="1603983367463" />
+    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2/0.0.1366.729@0.0.1366.729" timestamp="1604001433271" />
     <state x="100" y="100" width="1166" height="529" key="DiffContextDialog" timestamp="1603983353534">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
@@ -336,18 +357,30 @@
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="187" y="0" key="SettingsEditor/0.0.1366.729@0.0.1366.729" timestamp="1603982677843" />
-    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2" timestamp="1603968161705">
+    <state x="100" y="100" width="1166" height="529" key="VCS.FileHistoryDialog" timestamp="1604002583554">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2/0.0.1366.729@0.0.1366.729" timestamp="1603968161705" />
+    <state x="100" y="100" width="1166" height="529" key="VCS.FileHistoryDialog/0.0.1366.729@0.0.1366.729" timestamp="1604002583554" />
+    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2" timestamp="1604013811497">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2/0.0.1366.729@0.0.1366.729" timestamp="1604013811497" />
     <state x="444" y="212" width="477" height="302" key="cloudConfig.PluginsDialog" timestamp="1603965464365">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="444" y="212" width="477" height="302" key="cloudConfig.PluginsDialog/0.0.1366.729@0.0.1366.729" timestamp="1603965464365" />
-    <state x="84" y="78" width="1166" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604000373923">
+    <state x="84" y="78" width="1166" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604050917354">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="84" y="78" width="1166" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.729@0.0.1366.729" timestamp="1604000373923" />
+    <state x="84" y="78" width="1166" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.729@0.0.1366.729" timestamp="1604050917354" />
+    <state x="100" y="100" width="1166" height="529" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1604054333222">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="100" y="100" width="1166" height="529" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.729@0.0.1366.729" timestamp="1604054333222" />
+    <state x="245" y="0" width="866" height="726" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604003035277">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="245" y="0" width="866" height="726" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.729@0.0.1366.729" timestamp="1604003035277" />
     <state x="389" y="113" width="587" height="502" key="find.popup" timestamp="1603973516587">
       <screen x="0" y="0" width="1366" height="729" />
     </state>

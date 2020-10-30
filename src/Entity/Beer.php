@@ -5,9 +5,12 @@ namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Serializer\Annotation as SR;
+use OpenApi\Annotations as OA;
+
 
 /**
- * @ORM\Entity()
+ * @OA\Schema(schema="Beer")
+ * @ORM\Entity(repositoryClass="App\Entity\Beer")
  */
 class Beer
 {
@@ -17,6 +20,7 @@ class Beer
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
      * @SR\Groups({"show", "list"})
+     * @OA\Property(description="beer identifier",type="integer")
      */
     private $id;
 
@@ -24,32 +28,38 @@ class Beer
     /**
      * @ORM\Column(type="string", length=255)
      * @SR\Groups({"show", "list"})
+     * @OA\Property(description="beer name",type="string")
      */
     private $name;
 
     /**
      * @ORM\Column(type="string", length=555)
      * @SR\Groups({"show", "list"})
+     * @OA\Property(description="beer descrption",type="string")
      */
     private $description;
 
     /**
      * @ORM\Column(type="string", length=255)
      * @SR\Groups({"show"})
+     * @OA\Property(description="beer image",type="string")
      */
     private $imageUrl;
 
     /**
      * @ORM\Column(type="string", length=555)
      * @SR\Groups({"show"})
-     *
+     * @OA\Property(description="beer slogan",type="string")
      */
     private $tagline;
 
     /**
      * @ORM\Column(type="date")
      * @SR\Groups({"show"})
+     * @ORM\Column(type="datetime")
+     * @OA\Property(description="beer first brewed",type="string",format="date-time",pattern= "MM-YYYY")
      */
+
     private $firstBrewed;
 
     /**
