@@ -5,10 +5,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b70331b-0250-4ec2-9ad3-8cab3dd62a3d" name="Default Changelist" comment="">
+    <list default="true" id="0b70331b-0250-4ec2-9ad3-8cab3dd62a3d" name="Default Changelist" comment="Add:&#10;-Get Beer match with food recepy&#10;-Get Beer food test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Beers/BeersV1Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Beers/BeersV1Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Controller/BeersTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Controller/BeersTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Beer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Beer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +175,7 @@
       <updated>1603964945319</updated>
       <workItem from="1603964949376" duration="2921000" />
       <workItem from="1603968033740" duration="42785000" />
-      <workItem from="1604046263801" duration="14734000" />
+      <workItem from="1604046263801" duration="17452000" />
     </task>
     <task id="LOCAL-00001" summary="Add: /.idea to git ignore">
       <created>1603966434945</created>
@@ -240,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604059650366</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add:&#10;-Get Beer match with food recepy&#10;-Get Beer food test">
+      <created>1604061422363</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604061422363</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +301,8 @@
     <MESSAGE value="Add:&#10;-Beer entity &#10;-Beer entity test" />
     <MESSAGE value="Add:&#10;-Get Beer by Id &#10;-Geet Beer by Id test" />
     <MESSAGE value="Fixx:&#10;-Get Beer by Id constraint type to numeric" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixx:&#10;-Get Beer by Id constraint type to numeric" />
+    <MESSAGE value="Add:&#10;-Get Beer match with food recepy&#10;-Get Beer food test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add:&#10;-Get Beer match with food recepy&#10;-Get Beer food test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="11" width="623" height="704" key="#PHP" timestamp="1603982711893">
@@ -321,10 +329,10 @@
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="416" y="122" width="524" height="481" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.729@0.0.1366.729" timestamp="1604000418066" />
-    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2" timestamp="1604059650132">
+    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2" timestamp="1604063097831">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2/0.0.1366.729@0.0.1366.729" timestamp="1604059650132" />
+    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2/0.0.1366.729@0.0.1366.729" timestamp="1604063097831" />
     <state x="100" y="100" width="1166" height="529" key="DiffContextDialog" timestamp="1604059686824">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
@@ -401,10 +409,10 @@
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="466" y="259" width="423" height="208" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.729@0.0.1366.729" timestamp="1603966065424" />
-    <state x="346" y="50" width="672" height="678" key="search.everywhere.popup" timestamp="1604058743980">
+    <state x="346" y="50" width="672" height="678" key="search.everywhere.popup" timestamp="1604062121332">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="346" y="50" width="672" height="678" key="search.everywhere.popup/0.0.1366.729@0.0.1366.729" timestamp="1604058743980" />
+    <state x="346" y="50" width="672" height="678" key="search.everywhere.popup/0.0.1366.729@0.0.1366.729" timestamp="1604062121332" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/O2O_test@PunkApiConfigurationTest_testGetApiUrl.xml" NAME="PunkApiConfigurationTest.testGetApiUrl Coverage Results" MODIFIED="1603982716607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

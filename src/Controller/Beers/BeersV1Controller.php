@@ -38,7 +38,28 @@ class BeersV1Controller extends AbstractController
      *     description= "Returns all matchings beers for the given food recepy",
      *     @OA\JsonContent(
      *         type="array",
-     *         @OA\Items(ref="#/components/schemas/Beer")),
+     *      @OA\Items(
+     *                @OA\Property(
+     *                    property="id",
+     *                    type="integer",
+     *                    description="Beer identifier",
+     *                    example="52"
+     *                 ),
+     *              @OA\Property(
+     *                    property="nombre",
+     *                    type="string",
+     *                    description="Beer name",
+     *                    example="India Session Lager - Prototype Challenge"
+     *                 ),
+     *
+     *              @OA\Property(
+     *                    property="description",
+     *                    type="string",
+     *                    description="Beer decription",
+     *                    example="BrewDog’s level of dry-hop to a beer formed with a baseline of 100% pilsner malt – and at under 4.5%"
+     *                 ),
+     *             )
+     *
      *     )
      * )
      * @OA\Response(
