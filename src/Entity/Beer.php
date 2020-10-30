@@ -20,7 +20,7 @@ class Beer
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
      * @SR\Groups({"show", "list"})
-     * @OA\Property(description="beer identifier",type="integer")
+     * @OA\Property(description="beer identifier",type="integer",readOnly=true)
      */
     private $id;
 
