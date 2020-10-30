@@ -6,7 +6,6 @@ use App\ThirdPartyServers\PunkApi\PunkApiClient;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Exception\RequestException;
 use Nelmio\ApiDocBundle\Annotation\Model;
-use phpDocumentor\Reflection\Type;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use FOS\RestBundle\Controller\Annotations as Rest;
@@ -73,7 +72,7 @@ class BeersV1Controller extends AbstractController
     {
         $input = ['id' => $request->get("id")];
         $constraints = new Constraints\Collection([
-            'id' => [new Constraints\NotBlank(), new Constraints\Type('integer')]
+            'id' => [new Constraints\NotBlank(), new Constraints\Type('numeric')]
         ]);
         $violations = $validator->validate($input, $constraints);
         if (count($violations) > 0) {

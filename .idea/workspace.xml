@@ -5,18 +5,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b70331b-0250-4ec2-9ad3-8cab3dd62a3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="0b70331b-0250-4ec2-9ad3-8cab3dd62a3d" name="Default Changelist" comment="Add:&#10;-Get Beer by Id &#10;-Geet Beer by Id test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/nelmio_api_doc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/nelmio_api_doc.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Beers/BeersV1Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Beers/BeersV1Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Beer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Beer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +174,7 @@
       <updated>1603964945319</updated>
       <workItem from="1603964949376" duration="2921000" />
       <workItem from="1603968033740" duration="42785000" />
-      <workItem from="1604046263801" duration="12057000" />
+      <workItem from="1604046263801" duration="13029000" />
     </task>
     <task id="LOCAL-00001" summary="Add: /.idea to git ignore">
       <created>1603966434945</created>
@@ -234,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604001433505</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add:&#10;-Get Beer by Id &#10;-Geet Beer by Id test">
+      <created>1604058564380</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604058564380</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +284,8 @@
     <MESSAGE value="fix:&#10;-PunckApi configuration getApiUrl" />
     <MESSAGE value="Add:&#10;-Beer entity &#10;-Beer entity test&#10;-PunkApi client &#10;-PunkApi test" />
     <MESSAGE value="Add:&#10;-Beer entity &#10;-Beer entity test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add:&#10;-Beer entity &#10;-Beer entity test" />
+    <MESSAGE value="Add:&#10;-Get Beer by Id &#10;-Geet Beer by Id test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add:&#10;-Get Beer by Id &#10;-Geet Beer by Id test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="11" width="623" height="704" key="#PHP" timestamp="1603982711893">
@@ -313,14 +312,14 @@
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="416" y="122" width="524" height="481" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.729@0.0.1366.729" timestamp="1604000418066" />
-    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2" timestamp="1604001433271">
+    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2" timestamp="1604058734463">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2/0.0.1366.729@0.0.1366.729" timestamp="1604001433271" />
-    <state x="100" y="100" width="1166" height="529" key="DiffContextDialog" timestamp="1603983353534">
+    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2/0.0.1366.729@0.0.1366.729" timestamp="1604058734463" />
+    <state x="100" y="100" width="1166" height="529" key="DiffContextDialog" timestamp="1604059365976">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="100" y="100" width="1166" height="529" key="DiffContextDialog/0.0.1366.729@0.0.1366.729" timestamp="1603983353534" />
+    <state x="100" y="100" width="1166" height="529" key="DiffContextDialog/0.0.1366.729@0.0.1366.729" timestamp="1604059365976" />
     <state x="466" y="122" width="424" height="481" key="FileChooserDialogImpl" timestamp="1603982965957">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
@@ -361,18 +360,22 @@
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="100" y="100" width="1166" height="529" key="VCS.FileHistoryDialog/0.0.1366.729@0.0.1366.729" timestamp="1604002583554" />
-    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2" timestamp="1604013811497">
+    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2" timestamp="1604058677329">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2/0.0.1366.729@0.0.1366.729" timestamp="1604013811497" />
+    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2/0.0.1366.729@0.0.1366.729" timestamp="1604058677329" />
     <state x="444" y="212" width="477" height="302" key="cloudConfig.PluginsDialog" timestamp="1603965464365">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="444" y="212" width="477" height="302" key="cloudConfig.PluginsDialog/0.0.1366.729@0.0.1366.729" timestamp="1603965464365" />
-    <state x="84" y="78" width="1166" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604050917354">
+    <state x="100" y="100" width="1166" height="529" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1604059365976">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="84" y="78" width="1166" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.729@0.0.1366.729" timestamp="1604050917354" />
+    <state x="100" y="100" width="1166" height="529" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.729@0.0.1366.729" timestamp="1604059365976" />
+    <state x="84" y="78" width="1166" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604059061149">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="84" y="78" width="1166" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.729@0.0.1366.729" timestamp="1604059061149" />
     <state x="100" y="100" width="1166" height="529" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1604054333222">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
@@ -389,10 +392,10 @@
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="466" y="259" width="423" height="208" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.729@0.0.1366.729" timestamp="1603966065424" />
-    <state x="346" y="50" width="672" height="678" key="search.everywhere.popup" timestamp="1603995477129">
+    <state x="346" y="50" width="672" height="678" key="search.everywhere.popup" timestamp="1604058743980">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="346" y="50" width="672" height="678" key="search.everywhere.popup/0.0.1366.729@0.0.1366.729" timestamp="1603995477129" />
+    <state x="346" y="50" width="672" height="678" key="search.everywhere.popup/0.0.1366.729@0.0.1366.729" timestamp="1604058743980" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/O2O_test@PunkApiConfigurationTest_testGetApiUrl.xml" NAME="PunkApiConfigurationTest.testGetApiUrl Coverage Results" MODIFIED="1603982716607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
