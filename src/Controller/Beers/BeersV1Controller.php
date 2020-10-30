@@ -28,6 +28,96 @@ use Symfony\Component\Validator\Constraints;
 class BeersV1Controller extends AbstractController
 {
     /**
+     * Get matches with the given food recepy.
+     *
+     * @Rest\Get(
+     *     path="/beer/match"
+     * )
+     * @OA\Response(
+     *     response=200,
+     *     description= "Returns all matchings beers for the given food recepy",
+     *     @OA\JsonContent(
+     *         type="array",
+     *         @OA\Items(ref="#/components/schemas/Beer")),
+     *     )
+     * )
+     * @OA\Response(
+     *     response=404,
+     *     description= "Beer not found"
+     * )
+     * @OA\Response(
+     *     response=400,
+     *     description= "Bad request"
+     * )
+     * @OA\Parameter (
+     *     name="food",
+     *     in="query",
+     *     @OA\Schema(type="string"),
+     *     description= "Food recepy",
+     *     required=true
+     * )
+     * @OA\Parameter (
+     *     name="page",
+     *     in="query",
+     *     @OA\Schema(type="integer"),
+     *     description= "Number of the page to show"
+     * )
+     * @OA\Parameter (
+     *     name="per_page",
+     *     in="query",
+     *     @OA\Schema(type="integer"),
+     *     description= "Number of items show by page"
+     * )
+     * @OA\Tag(name="Beer")
+     *
+     * @param PunkApiClient $client
+     * @param Request $request
+     * @param LoggerInterface $logger
+     * @param ValidatorInterface $validator
+     * @return Response
+     */
+    public function getBeersFoodMatchs(
+        PunkApiClient $client,
+        Request $request,
+        LoggerInterface $logger,
+        ValidatorInterface $validator
+    ): Response
+    {
+        $input = [
+            'food' => $request->get('food'),
+            'page' => $request->get('page', 1),
+            'per_page' => $request->get('per_page', 20),
+        ];
+        $constraints = new Constraints\Collection([
+            'food' => [new Constraints\NotBlank(), new  Constraints\Type('string')],
+            'page' => [new  Constraints\Type('numeric')],
+            'per_page' => [new  Constraints\Type('numeric')]
+        ]);
+        $violations = $validator->validate($input, $constraints);
+        if (count($violations) > 0) {
+            return $this->json(null, Response::HTTP_BAD_REQUEST);
+        }
+        try {
+            $data = $client->listBeers($input);
+            if (empty($data)) {
+                return $this->json(null, Response::HTTP_NOT_FOUND);
+            }
+            return $this->json($data,
+                Response::HTTP_OK, [],
+                [ObjectNormalizer::GROUPS => ['list']]);
+
+        } catch
+        (GuzzleException $e) {
+            if ($e instanceof RequestException && $e->getResponse()->getStatusCode() === 404) {
+                return $this->json(null, Response::HTTP_NOT_FOUND);
+            }
+            $logger->error($e->getMessage());
+            return $this->json(null, Response::HTTP_INTERNAL_SERVER_ERROR);
+
+        }
+    }
+
+    /**
      *
      * Get a beer by id.
      * @Rest\Get(
