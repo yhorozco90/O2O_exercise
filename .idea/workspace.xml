@@ -6,8 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b70331b-0250-4ec2-9ad3-8cab3dd62a3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +21,14 @@
     </execution>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/flex" />
       <path value="$PROJECT_DIR$/vendor/composer" />
@@ -91,6 +96,26 @@
       <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jXytRSuhuhRb6RnaU2gGuhFJzV" />
@@ -100,10 +125,44 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="324" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="324" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="324" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="323" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="324" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="324" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="324" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="323" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/ThirdPartyServers/PunkApi" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test suit" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -113,8 +172,89 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603964945319</updated>
-      <workItem from="1603964949376" duration="1454000" />
+      <workItem from="1603964949376" duration="2921000" />
+      <workItem from="1603968033740" duration="42785000" />
+      <workItem from="1604046263801" duration="17770000" />
+      <workItem from="1604163561379" duration="902000" />
     </task>
+    <task id="LOCAL-00001" summary="Add: /.idea to git ignore">
+      <created>1603966434945</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603966434945</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fix: /.idea rcursive to git ignore&#10;Add: Nelmio cors config">
+      <created>1603968140617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603968140617</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add:&#10;- Beers controller&#10;- versioning config">
+      <created>1603970145599</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603970145599</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add:&#10;-PunckApi configuration&#10;-PunckApi configuration test">
+      <created>1603980591397</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603980591399</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix:&#10;-PunckApi configuration getApiUrl">
+      <created>1603980876950</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603980876950</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add:&#10;-Beer entity &#10;-Beer entity test&#10;-PunkApi client &#10;-PunkApi test">
+      <created>1604001384960</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604001384960</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add:&#10;-Beer entity &#10;-Beer entity test">
+      <created>1604001433505</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604001433505</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add:&#10;-Get Beer by Id &#10;-Geet Beer by Id test">
+      <created>1604058564380</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604058564380</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fixx:&#10;-Get Beer by Id constraint type to numeric">
+      <created>1604059650366</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604059650366</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add:&#10;-Get Beer match with food recepy&#10;-Get Beer food test">
+      <created>1604061422363</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604061422363</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add:&#10;-Specification of fields exposition">
+      <created>1604064107772</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604064107772</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,25 +288,141 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add: /.idea to git ignore" />
+    <MESSAGE value="Fix: /.idea rcursive to git ignore&#10;Add: Nelmio cors config" />
+    <MESSAGE value="Add: Beers controller with versioning config" />
+    <MESSAGE value="Add:&#10;- Beers controller&#10;- versioning config" />
+    <MESSAGE value="Add:&#10;-PunckApi configuration&#10;-PunckApi configuration test" />
+    <MESSAGE value="fix:&#10;-PunckApi configuration getApiUrl" />
+    <MESSAGE value="Add:&#10;-Beer entity &#10;-Beer entity test&#10;-PunkApi client &#10;-PunkApi test" />
+    <MESSAGE value="Add:&#10;-Beer entity &#10;-Beer entity test" />
+    <MESSAGE value="Add:&#10;-Get Beer by Id &#10;-Geet Beer by Id test" />
+    <MESSAGE value="Fixx:&#10;-Get Beer by Id constraint type to numeric" />
+    <MESSAGE value="Add:&#10;-Get Beer match with food recepy&#10;-Get Beer food test" />
+    <MESSAGE value="Add:&#10;-Specification of fields exposition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add:&#10;-Specification of fields exposition" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2" timestamp="1603966398408">
+    <state x="368" y="11" width="623" height="704" key="#PHP" timestamp="1603982711893">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2/0.0.1366.729@0.0.1366.729" timestamp="1603966398408" />
-    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2" timestamp="1603965868826">
+    <state x="368" y="11" width="623" height="704" key="#PHP/0.0.1366.729@0.0.1366.729" timestamp="1603982711893" />
+    <state x="268" y="21" width="824" height="681" key="#Test_Frameworks" timestamp="1603982969193">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
-    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2/0.0.1366.729@0.0.1366.729" timestamp="1603965868826" />
+    <state x="268" y="21" width="824" height="681" key="#Test_Frameworks/0.0.1366.729@0.0.1366.729" timestamp="1603982969193" />
+    <state x="141" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603982880790">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="141" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.729@0.0.1366.729" timestamp="1603982880790" />
+    <state x="470" y="76" width="425" height="573" key="#com.intellij.ide.util.MemberChooser" timestamp="1603991676512">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="470" y="76" width="425" height="573" key="#com.intellij.ide.util.MemberChooser/0.0.1366.729@0.0.1366.729" timestamp="1603991676512" />
+    <state x="250" y="0" width="846" height="726" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603970920984">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="250" y="0" width="846" height="726" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.729@0.0.1366.729" timestamp="1603970920984" />
+    <state x="416" y="122" width="524" height="481" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604000418066">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="416" y="122" width="524" height="481" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.729@0.0.1366.729" timestamp="1604000418066" />
+    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2" timestamp="1604064107560">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="276" y="0" width="803" height="726" key="CommitChangelistDialog2/0.0.1366.729@0.0.1366.729" timestamp="1604064107560" />
+    <state x="100" y="100" width="1166" height="529" key="DiffContextDialog" timestamp="1604059686824">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="100" y="100" width="1166" height="529" key="DiffContextDialog/0.0.1366.729@0.0.1366.729" timestamp="1604059686824" />
+    <state x="466" y="122" width="424" height="481" key="FileChooserDialogImpl" timestamp="1603982965957">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="466" y="122" width="424" height="481" key="FileChooserDialogImpl/0.0.1366.729@0.0.1366.729" timestamp="1603982965957" />
+    <state x="0" y="0" width="1356" height="726" key="FileDocumentManager.FileCacheConflict" timestamp="1603983239190">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="0" y="0" width="1356" height="726" key="FileDocumentManager.FileCacheConflict/0.0.1366.729@0.0.1366.729" timestamp="1603983239190" />
+    <state width="1324" height="256" key="GridCell.Tab.0.bottom" timestamp="1603990392000">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state width="1324" height="256" key="GridCell.Tab.0.bottom/0.0.1366.729@0.0.1366.729" timestamp="1603990392000" />
+    <state width="1324" height="256" key="GridCell.Tab.0.center" timestamp="1603990391999">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state width="1324" height="256" key="GridCell.Tab.0.center/0.0.1366.729@0.0.1366.729" timestamp="1603990391999" />
+    <state width="1324" height="256" key="GridCell.Tab.0.left" timestamp="1603990391999">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state width="1324" height="256" key="GridCell.Tab.0.left/0.0.1366.729@0.0.1366.729" timestamp="1603990391999" />
+    <state width="1324" height="256" key="GridCell.Tab.0.right" timestamp="1603990391999">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state width="1324" height="256" key="GridCell.Tab.0.right/0.0.1366.729@0.0.1366.729" timestamp="1603990391999" />
+    <state x="376" y="93" width="604" height="539" key="NewPhpClassDialog" timestamp="1603987395804">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="376" y="93" width="604" height="539" key="NewPhpClassDialog/0.0.1366.729@0.0.1366.729" timestamp="1603987395804" />
+    <state x="418" y="88" width="520" height="549" key="RollbackChangesDialog" timestamp="1603996201537">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="418" y="88" width="520" height="549" key="RollbackChangesDialog/0.0.1366.729@0.0.1366.729" timestamp="1603996201537" />
+    <state x="187" y="0" key="SettingsEditor" timestamp="1603982677843">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="187" y="0" key="SettingsEditor/0.0.1366.729@0.0.1366.729" timestamp="1603982677843" />
+    <state x="100" y="100" width="1166" height="529" key="VCS.FileHistoryDialog" timestamp="1604002583554">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="100" y="100" width="1166" height="529" key="VCS.FileHistoryDialog/0.0.1366.729@0.0.1366.729" timestamp="1604002583554" />
+    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2" timestamp="1604059654472">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="278" y="100" width="800" height="525" key="Vcs.Push.Dialog.v2/0.0.1366.729@0.0.1366.729" timestamp="1604059654472" />
     <state x="444" y="212" width="477" height="302" key="cloudConfig.PluginsDialog" timestamp="1603965464365">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="444" y="212" width="477" height="302" key="cloudConfig.PluginsDialog/0.0.1366.729@0.0.1366.729" timestamp="1603965464365" />
+    <state x="100" y="100" width="1166" height="529" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1604059365976">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="100" y="100" width="1166" height="529" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.729@0.0.1366.729" timestamp="1604059365976" />
+    <state x="84" y="78" width="1166" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604059061149">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="84" y="78" width="1166" height="529" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.729@0.0.1366.729" timestamp="1604059061149" />
+    <state x="100" y="100" width="1166" height="529" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1604054333222">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="100" y="100" width="1166" height="529" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.729@0.0.1366.729" timestamp="1604054333222" />
+    <state x="245" y="0" width="866" height="726" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604003035277">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="245" y="0" width="866" height="726" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.729@0.0.1366.729" timestamp="1604003035277" />
+    <state x="389" y="113" width="587" height="502" key="find.popup" timestamp="1603973516587">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="389" y="113" width="587" height="502" key="find.popup/0.0.1366.729@0.0.1366.729" timestamp="1603973516587" />
     <state x="466" y="259" width="423" height="208" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603966065424">
       <screen x="0" y="0" width="1366" height="729" />
     </state>
     <state x="466" y="259" width="423" height="208" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.729@0.0.1366.729" timestamp="1603966065424" />
+    <state x="346" y="50" width="672" height="678" key="search.everywhere.popup" timestamp="1604062121332">
+      <screen x="0" y="0" width="1366" height="729" />
+    </state>
+    <state x="346" y="50" width="672" height="678" key="search.everywhere.popup/0.0.1366.729@0.0.1366.729" timestamp="1604062121332" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/O2O_test@PunkApiConfigurationTest_testGetApiUrl.xml" NAME="PunkApiConfigurationTest.testGetApiUrl Coverage Results" MODIFIED="1603982716607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
